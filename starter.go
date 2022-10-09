@@ -10,5 +10,10 @@ type Starter struct {
 }
 
 func newAgent(config *pangu.Config) (starter *Starter, err error) {
+	_config := new(panguConfig)
+	if err = config.Load(_config); nil != err {
+		return
+	}
+
 	return
 }
