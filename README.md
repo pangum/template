@@ -22,7 +22,7 @@
 
 ## 交流
 
-![微信群](doc/.vuepress/public/communication/wxwork.jpg)
+![微信群](https://pangu.pangum.tech/communication/wxwork.jpg)
 
 ## 捐助
 
