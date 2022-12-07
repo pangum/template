@@ -11,6 +11,19 @@
 
 项目介绍
 
+## 项目实践
+
+- [基础项目实战代码](https://github.com/pangum/example)
+  - 数据库操作
+  - 数据库迁移
+  - RESTFul接口
+  - 配置加载
+  - MQTT操作
+
+## 交流
+
+![微信群](doc/.vuepress/public/communication/wxwork.jpg)
+
 ## 捐助
 
 ![支持宝](https://github.com/storezhang/donate/raw/master/alipay-small.jpg)
