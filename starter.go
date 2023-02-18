@@ -4,7 +4,7 @@ import (
 	"github.com/pangum/pangu"
 )
 
-// Starter TODO 根据第三方入口的名字来命名
+// Starter 入口封装，由于语言特性，最好是直接继承的方式，通过显示使用主入口来执行初始化流程
 type Starter struct {
 	// TODO 从第三方要接入的主入口继承
 }
