@@ -1,5 +1,5 @@
 package starter
 
-type panguConfig struct {
+type wrapper struct {
 	// TODO 加入自定义的配置
 }
