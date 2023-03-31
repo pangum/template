@@ -1,8 +1,8 @@
 module github.com/pangum/starter
 
-go 1.18
+go 1.19
 
-require github.com/pangum/pangu v0.1.8
+require github.com/pangum/pangu v0.3.1
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
