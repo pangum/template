@@ -8,8 +8,8 @@ import (
 type Starter = TODO
 
 func newAgent(config *pangu.Config) (starter *Starter, err error) {
-	_config := new(panguConfig)
-	if err = config.Load(_config); nil != err {
+	wrap := new(wrapper)
+	if err = config.Load(wrap); nil != err {
 		return
 	}
 
