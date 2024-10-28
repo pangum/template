@@ -1,12 +1,8 @@
-module github.com/pangum/task
+module github.com/pangum/todo
 
 go 1.23
 
-require (
-	github.com/goexl/log v0.0.7
-	github.com/goexl/task v0.1.3
-	github.com/pangum/pangu v1.4.8
-)
+require github.com/pangum/pangu v1.4.8
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
@@ -21,6 +17,7 @@ require (
 	github.com/goexl/exception v0.0.1 // indirect
 	github.com/goexl/gfx v0.2.3 // indirect
 	github.com/goexl/gox v1.8.9 // indirect
+	github.com/goexl/log v0.0.7 // indirect
 	github.com/goexl/mengpo v0.2.6 // indirect
 	github.com/goexl/structer v0.1.9 // indirect
 	github.com/goexl/xiren v0.0.8 // indirect
@@ -30,9 +27,7 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pangum/config v0.1.0 // indirect
-	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
-	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/rs/xid v1.6.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/urfave/cli/v2 v2.27.5 // indirect
@@ -43,5 +38,4 @@ require (
 	golang.org/x/net v0.30.0 // indirect
 	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/text v0.19.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

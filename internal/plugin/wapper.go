@@ -1,9 +1,9 @@
 package plugin
 
 import (
-	"github.com/pangum/task/internal/config"
+	"github.com/pangum/todo/internal/config"
 )
 
 type Wrapper struct {
-	Task *config.Task `json:"task,omitempty" validate:"required"`
+	Todo *config.Todo `json:"todo,omitempty" validate:"required"`
 }
