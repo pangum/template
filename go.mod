@@ -1,8 +1,12 @@
-module github.com/pangum/starter
+module github.com/pangum/task
 
-go 1.22
+go 1.23
 
-require github.com/pangum/pangu v0.4.9
+require (
+	github.com/goexl/log v0.0.7
+	github.com/goexl/task v0.1.3
+	github.com/pangum/pangu v0.4.9
+)
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
@@ -16,8 +20,7 @@ require (
 	github.com/goexl/env v0.0.2 // indirect
 	github.com/goexl/exception v0.0.1 // indirect
 	github.com/goexl/gfx v0.1.7 // indirect
-	github.com/goexl/gox v0.4.6 // indirect
-	github.com/goexl/log v0.0.7 // indirect
+	github.com/goexl/gox v1.8.9 // indirect
 	github.com/goexl/mengpo v0.2.5 // indirect
 	github.com/goexl/xiren v0.0.6 // indirect
 	github.com/google/uuid v1.6.0 // indirect
@@ -26,6 +29,7 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
+	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/urfave/cli/v2 v2.27.2 // indirect
